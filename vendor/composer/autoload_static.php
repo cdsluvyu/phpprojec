@@ -11,12 +11,28 @@ class ComposerStaticInit80971b637e3c61340b10f365c9982008
         array (
             'jetsetphp\\' => 10,
         ),
+        'W' => 
+        array (
+            'Whoops\\' => 7,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'jetsetphp\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Whoops\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
     );
 

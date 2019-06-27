@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'jetsetphp\\' => array($baseDir . '/src'),
+    'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
 );
